@@ -40,6 +40,7 @@ section > h2{
     margin: 10px auto;
     word-spacing: 7px;
     color: #efcfa0;
+    border-bottom: 2px solid white;
 }
 
 section > div > h2{
@@ -111,28 +112,50 @@ section > div > h2{
 
 .fl-shrink-sec .div-1{
     background-color: #93ff68;
-    flex-grow: 1;
+    flex-basis: 200px;
     flex-shrink: 1;
 }
 .fl-shrink-sec .div-2{
     background-color: #e4ff55;
-    flex-grow: 1;
-    flex-shrink: 2;
+    flex-basis: 200px;
+    flex-shrink: 3;
 }
 .fl-shrink-sec .div-3{
     background-color: #ffb543;
-    flex-grow: 1;
+    flex-basis: 200px;
     flex-shrink: 1;
 }
 .fl-shrink-sec .div-4{
     background-color: #ff5a5a;
-    flex-grow: 1;
+    flex-basis: 200px;
     flex-shrink: 1;
 }
 .fl-shrink-sec .div-5{
     background-color: #c660ff;
-    flex-grow: 1;
+    flex-basis: 200px;
     flex-shrink: 2;
+}
+
+
+.fl-basis-sec .div-1{
+    background-color: #93ff68;
+    flex-basis: 70px;
+}
+.fl-basis-sec .div-2{
+    background-color: #e4ff55;
+    flex-basis: 120px;
+}
+.fl-basis-sec .div-3{
+    background-color: #ffb543;
+    flex-basis:40px;
+}
+.fl-basis-sec .div-4{
+    background-color: #ff5a5a;
+    flex-basis: 110px;
+}
+.fl-basis-sec .div-5{
+    background-color: #c660ff;
+    flex-basis: 50px;
 }
 
 
