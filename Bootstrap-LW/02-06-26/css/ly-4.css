@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    margin: 0 auto !important;
+    box-sizing: border-box;
+}
+
+.row{
+    max-width: 1400px;
+}
+
+.row [class^="col"] {
+    color: white;
+    text-align: center;
+}
+
+.row-1 [class^="col"]:nth-child(1){
+    background-color: #495867;
+}
+
+.row-1 [class^="col"]:nth-child(2){
+    background-color: #fe5f55;
+}
+
+.row-2 [class^="col"]{
+    background-color: #99c1de;
+    padding: 10em;
+    color: black;
+}
